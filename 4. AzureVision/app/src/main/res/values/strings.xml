@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AzureVision</string>
+    <string name="activity_main_button_select_picture">select picture</string>
+</resources>

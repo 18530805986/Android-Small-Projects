@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lineWidthLayout"
+    android:columnCount="1"
+    android:orientation="vertical"
+    android:useDefaultMargins="true"
+    android:padding="@dimen/fab_margin">
+
+    <ImageView
+        android:id="@+id/widthImageView"
+        android:layout_height="@dimen/line_imageview_height"
+        android:layout_gravity="fill_horizontal"
+        android:contentDescription="@string/line_imageview_description"
+        />
+    <SeekBar
+        android:id="@+id/widthSeekBar"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:scrollbarSize="@dimen/dialog_text_size"
+        android:max="50"/>
+
+</GridLayout>
